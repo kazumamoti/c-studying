@@ -6,5 +6,8 @@ int main( void ){
 	/* 変更用にコメントを追加 */
 	printf("%d",hoge);
 	
+	hoge++;
+	printf("%d",hoge);
+	
 	return 0;
 }
