@@ -38,6 +38,8 @@ int main(void)
 	printf("名前は%s,年齢は%d歳で、%sです。\n",sato.name,sato.age,(sato.adaltFlag == ADALT_FLAG_ON)? "成人":"未成年");
 	printf("名前は%s,年齢は%d歳で、%sです。\n",fuzimoto.name,fuzimoto.age,(fuzimoto.adaltFlag == ADALT_FLAG_ON)? "成人":"未成年");
 	
+	/* コメント追加 */
+	printf("コメントを追加しました\n");
 	
 	return 0;
 }
