@@ -40,6 +40,7 @@ int main(void)
 	
 	/* コメント追加 */
 	printf("コメントを追加しました\n");
+	printf("競合が起きるかテストをする\n");
 	
 	return 0;
 }
